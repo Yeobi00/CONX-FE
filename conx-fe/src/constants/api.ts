@@ -10,12 +10,6 @@ export const API_ROUTES = {
     EMAIL_SEND: '/api/auth/email/send',
     EMAIL_VERIFY: '/api/auth/email/verify',
   },
-  PROJECT: {
-    CREATE: '/api/projects/create',
-  },
-  FILE: {
-    UPLOAD: '/api/files/upload',
-  },
 } as const;
 
 export const COOKIE_CONFIG = {
@@ -33,11 +27,5 @@ export const BACKEND_ENDPOINTS = {
     SIGNUP_SETTING_COMPANY: '/api/v1/auth/usersetting/company',
     EMAIL_SEND: '/api/v1/auth/email/send',
     EMAIL_VERIFY: '/api/v1/auth/email/verify',
-  },
-  PROJECT: {
-    CREATE: '/api/v1/companies/me/projects',
-  },
-  FILE: {
-    UPLOAD: '/api/v1/files/presigned-url',
   },
 } as const;
